@@ -1,6 +1,26 @@
 {
+  "name": "string-analyser",
+  "version": "1.0.0",
+  "description": "This project is a RESTful API built using **Node.js** and **Express.js**. It provides endpoints to analyze strings, compute their properties, and store them in an in-memory database (Map). The API supports creating, retrieving, filtering, and deleting strings, with advanced features like natural language query parsing.",
+  "homepage": "https://github.com/Nabil201-ctrl/HNG_Stage1_Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Nabil201-ctrl/HNG_Stage1_Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabil201-ctrl/HNG_Stage1_Backend.git"
+  },
+  "license": "ISC",
+  "author": "Abubakar Nabil",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "crypto": "^1.0.1",
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {}
 }

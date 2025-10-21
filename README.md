@@ -149,7 +149,7 @@ node index.js
 
 ## 🌍 Deployment
 
-* Hosted on **Railway** (or other platforms like Heroku, AWS, PXXL App)
+* Hosted on **PXXL SPACE**
 * Ensure environment variables (e.g., `PORT`) are configured on the hosting platform.
 
 ---
@@ -212,7 +212,7 @@ The API was tested using **Postman** to ensure all endpoints meet the requiremen
 * ✅ Hosted API on Railway (or alternative platform)
 * ✅ Provided GitHub repo with clear README and setup instructions
 * ✅ Tested all endpoints using Postman
-* ✅ Published write-up on **LinkedIn / Dev.to / Hashnode / X / Medium** explaining:
+* ✅ Published write-up on **LinkedIn** explaining:
   * Thought process
   * Implementation details
   * Screenshots of API responses

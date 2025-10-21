@@ -44,7 +44,7 @@ app.post('/strings', (req, res) => {
             character_frequency_map[char] = (character_frequency_map[char] || 0) + 1;
         }
 
-        // Compute properties
+        // properties
         const is_palindrome = sanitizedValue.toLowerCase() ===
             sanitizedValue.toLowerCase().split('').reverse().join('');
         const word_count = sanitizedValue.trim() === ''
@@ -94,7 +94,7 @@ app.get('/strings/:string_value', (req, res) => {
     }
 });
 
-// GET /strings - Get All Strings with Filtering
+// GET /strings - Get All Strings with Filteringg
 app.get('/strings', (req, res) => {
     try {
         const { is_palindrome, min_length, max_length, word_count, contains_character } = req.query;
