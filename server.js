@@ -2,6 +2,8 @@ import express from 'express';
 import crypto from 'crypto';
 import parseNaturalLanguageQuery from './utils/Natural_Language_Parser.js';
 import applyFilters from './utils/filter_logic.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 app.use(express.json());
